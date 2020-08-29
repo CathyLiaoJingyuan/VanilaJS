@@ -1,12 +1,33 @@
 :root {
-    --primary-color: #5fbaa7;
+  --primary-color: #5fbaa7;
 }
 
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
 }
